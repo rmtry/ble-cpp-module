@@ -1,7 +1,7 @@
-#include "../include/BleClient.h"
-#include "../include/Errors.h"
-#include "../include/Adapter.h"
-#include "../include/Events.h"
+#include "../../include/BleClient.h"
+#include "../../include/Errors.h"
+#include "../../include/Adapter.h"
+#include "../../include/Events.h"
 #include <mutex>
 #include <memory>
 #include <future>

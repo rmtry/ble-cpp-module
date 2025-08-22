@@ -8,6 +8,7 @@ set(CMAKE_OBJCXX_STANDARD 17)
 add_library(ble_core
     src/core/BleClient.cpp
     src/core/EventBus.cpp
+    src/core/Errors.cpp
   # ... add remaining core files
 )
 target_include_directories(ble_core PUBLIC ${CMAKE_SOURCE_DIR}/include)
